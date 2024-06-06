@@ -1,15 +1,19 @@
-# zadanie
+# zadania
 Oba zadania zostały połączone, ze względu na użycie kilku wspólnych skryptów.
-Architektura aplikacji zostala oparta o wzorzec MVC, struktura na popularnych frameworkach.
+Architektura obu aplikacji zostala oparta o wzorzec MVC, struktura na popularnych frameworkach.
+
+#1 zadanie
 
 W folderze public zostały umieszczone pliki javascript i style.
 W pliku Config/config.php zotały zapisane ustawienia dla bazy danych i aplikacji.
 
 Zaprojektowana została baza danych, utworzone tabele clients, contracts, invoices, payments oraz invoices details.
 Tabele zostały wypełnione przykładowymi danymi, dane dot. nr konta bankowego zostały pobrane ze strony http://randomiban.com/?country=Poland.
+
 Dołaczony został plik bazy danych contracts.sql.
 
 Sortowanie tabel i filtrowanie zostało wykonane przy użyciu zewnętrznej biblioteki jquery.dataTables.js.
+
 Dodane zostało proste stylowanie i menu, żeby można było łatiwej poruszać się pp aplikacji.
 Stylowanie jest wspólne dla obu zadań.
 
