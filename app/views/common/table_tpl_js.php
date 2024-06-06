@@ -13,12 +13,6 @@ if ($scroll == true) {
     $info = ", \"info\": true";
     $paging = ", \"paging\": false";
 }
-/*
-if ($newTable['length'] && $newTable['length']<10){
-    $jssearch = ", \"searching\": false,";
-    $paging = ", \"paging\": false";
-}*/
-
 ?>
 
 <script type="text/javascript" language="javascript" class="init">
