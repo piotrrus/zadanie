@@ -27,6 +27,7 @@ $i = "SELECT * FROM contracts WHERE $x ORDER BY $sql_orderby $b"; - wszystkie za
 $c = mysql_query("SELECT * FROM contracts WHERE $x ORDER BY id"); - zmienna $x została ummieszczona poza warunkiem
   
 Przykladowe wyniki zapytań do bazy wraz z kodem sql oraz podaną ścieżka:
+
 http://www.localhost/zadanie/contracts.php
 SELECT id, name, nip, amount FROM contracts order by id
 [0]=>
