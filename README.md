@@ -3,6 +3,7 @@ Oba zadania zostały połączone, ze względu na użycie kilku wspólnych skrypt
 Architektura aplikacji zostala oparta o wzorzec MVC, struktura na popularnych frameworkach.
 
 W folderze public zostały umieszczone pliki javascript i style.
+W pliku Config/config.php zotały zapisane ustawienia dla bazy danych i aplikacji.
 
 Zaprojektowana została baza danych, utworzone tabele clients, contracts, invoices, payments oraz invoices details.
 Tabele zostały wypełnione przykładowymi danymi, dane dot. nr konta bankowego zostały pobrane ze strony http://randomiban.com/?country=Poland.
