@@ -1,8 +1,8 @@
-# zadania
+# ogólnie
 Oba zadania zostały połączone, ze względu na użycie kilku wspólnych skryptów.
 Architektura obu aplikacji zostala oparta o wzorzec MVC, struktura na popularnych frameworkach.
 
-#1 zadanie
+# 1 zadanie
 
 W folderze public zostały umieszczone pliki javascript i style.
 W pliku Config/config.php zotały zapisane ustawienia dla bazy danych i aplikacji.
