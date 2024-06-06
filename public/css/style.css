@@ -87,7 +87,7 @@ p {
 }
 
 .container {
-  width: 85%;
+  width: 85% !important;
   padding: 5px 10px 0;
   margin: 0 auto;
   min-height: 800px;
