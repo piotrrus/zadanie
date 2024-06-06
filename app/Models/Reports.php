@@ -7,19 +7,14 @@ class Reports extends AppModel
 {
     const DB_TABLE = 'payments';
 
-    public function all()
-    {
-
-    }
-
     //raport wyświetlający nadpłaty na koncie klienta,
     public function surplusReport()
     {
         $query = $this->getQuery();
         $query .= " WHERE gross_sum - paid < 0";
-        //  $query .= parent::DB_ORDER . " payment_date DESC";
         return $this->getData($query);
     }
+    
     // raport wyświetlający niedopłaty za faktury,
     public function notPaidReport()
     {
