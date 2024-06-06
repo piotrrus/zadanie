@@ -16,6 +16,12 @@ Sortowanie tabel i filtrowanie zostało wykonane przy użyciu zewnętrznej bibli
 Dodane zostało proste stylowanie i menu, żeby można było łatiwej poruszać się pp aplikacji.
 Stylowanie jest wspólne dla obu zadań.
 
+Do utowrzenia kodu i jego sfromatowania wykorzystano Visual Studio Code.
+
+W opisie brak informacji na temat powiązań pomiędzy tabelami:
+pozycje faktury - brak id faktury
+płatnosci - brak id faktury, id klienta
+
 # 2. zadanie 
 W pliku comments.php zostały dołaczone moje komentarze do kodu.
 Oddzielona została warstwa prezentacja (widoku) od warstwy logiki.
