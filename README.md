@@ -7,12 +7,22 @@ W pliku Config/config.php zotały zapisane ustawienia dla bazy danych i aplikacj
 
 Zaprojektowana została baza danych, utworzone tabele clients, contracts, invoices, payments oraz invoices details.
 Tabele zostały wypełnione przykładowymi danymi, dane dot. nr konta bankowego zostały pobrane ze strony http://randomiban.com/?country=Poland.
-Dołaczony został plik contracts.sql.
+Dołaczony został plik bazy danych contracts.sql.
 
-Sortowanie tabel i wyszukiwanie zostało wykonane przy użyciu zewnętrznej biblioteki jquery.dataTables.js opartej na jQuery.
+Sortowanie tabel i filtrowanie zostało wykonane przy użyciu zewnętrznej biblioteki jquery.dataTables.js.
+Dodane zostało proste stylowanie i menu, żeby można było łatiwej poruszać się pp aplikacji.
+Stylowanie jest wspólne dla obu zadań.
 
+# 2. zadanie 
 W pliku comments.php zostały dołaczone moje komentarze do kodu.
-# 2. zadanie
+Oddzielona została warstwa prezentacja (widoku) od warstwy logiki.
+
+<html><body bgcolor=$dg_bgcolor> - stylowanie przeniesione do pliku css.
+<table width=95%> - podobnie - wykorzystano container
+$i = "SELECT * FROM contracts WHERE $x ORDER BY $sql_orderby $b"; - wszystkie zapytania przenoiesione zostały do modelu, podobnie jak sortowanie
+
+$c = mysql_query("SELECT * FROM contracts WHERE $x ORDER BY id"); - zmienna $x została ummieszczona poza warunkiem
+  
 Przykladowe wyniki zapytań do bazy wraz z kodem sql oraz podaną ścieżka:
 http://www.localhost/zadanie/contracts.php
 SELECT id, name, nip, amount FROM contracts order by id
