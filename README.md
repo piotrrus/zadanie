@@ -12,7 +12,7 @@ Dołaczony został plik contracts.sql.
 Sortowanie tabel i wyszukiwanie zostało wykonane przy użyciu zewnętrznej biblioteki jquery.dataTables.js opartej na jQuery.
 
 W pliku comments.php zostały dołaczone moje komentarze do kodu.
-
+# 2. zadanie
 Przykladowe wyniki zapytań do bazy wraz z kodem sql oraz podaną ścieżka:
 http://www.localhost/zadanie/contracts.php
 SELECT id, name, nip, amount FROM contracts order by id
