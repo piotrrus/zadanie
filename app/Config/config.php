@@ -7,7 +7,6 @@ class Conf
     const PHP_EXT = '.php';
     const VIEW_PATH = 'App/views/';
 
-    //  const CONTROLLER_NAME = 'controller';
     const DB_HOST = "localhost";
     const DB_USER = "piotrek";
     const DB_PASS = "123456!";
